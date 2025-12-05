@@ -1,6 +1,9 @@
 # Electricity Analysis Dashboard – StateBook (2023)
 
-An interactive and data-driven dashboard built using **Shiny for Python** to analyze the U.S. electricity landscape across **Operable**, **Proposed**, and **Retired** power plants.  
+
+An interactive and data-driven dashboard built using **Shiny for Python** to analyze the U.S. electricity landscape across **Operable**, **Proposed**, and **Retired** power plants.
+
+![Dashboard Preview](dashboard_images/Combined_Analysis.png)
 
 ---
 
@@ -69,8 +72,10 @@ In this multi-member capstone, **my primary work included**:
 
 Used to evaluate whether a state is suitable for future power project investments:
 
-Score = 0.5 × (Proposed Plants / (Retired Plants + 1)) + 0.5 × (Proposed Capacity / (Retired Capacity + 1))
-
+```
+Score = 0.5 × (Proposed Plants / (Retired Plants + 1)) 
+      + 0.5 × (Proposed Capacity / (Retired Capacity + 1))
+```
 
 Categories:
 
@@ -145,5 +150,5 @@ This repository reflects **my personal contributions**, cleaned structure, and d
 ## 💬 Contact
 
 **Email:** sriyareddy696@gmail.com  
-
+Feel free to reach out for any questions or feedback.
 
